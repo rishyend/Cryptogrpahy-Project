@@ -16,7 +16,8 @@ The implementation is carried out using three different methods:
 
 ![pure secp](https://github.com/user-attachments/assets/a5523bce-20dc-4d74-8818-02894abbb213)
 
-![chacha + ecc](https://github.com/user-attachments/assets/7324754e-beee-4652-869f-6783b725aa90)
+![chacha + ecc ](https://github.com/user-attachments/assets/c20153a1-82b5-412b-9631-c6cb8f96d4e6)
+
 
 ---
 
