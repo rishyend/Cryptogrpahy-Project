@@ -77,19 +77,3 @@ def encrypt_message_ec_ctr(shared_secret, plaintext):
 
 def decrypt_message_ec_ctr(shared_secret, ciphertext):
     return process_message_ec_ctr(shared_secret, ciphertext, is_encrypt=False)
-
-
-if __name__ == "__main__":
-    private_key, public_key = generate_ecc_keys()
-    peer_private_key, peer_public_key = generate_ecc_keys()
-
-    shared_secret = derive_shared_secret(private_key, peer_public_key)
-
-    plaintext = b"Hello, SECP224k1 encryption!" * 40  # Ensure it spans multiple blocks
-    ciphertext = encrypt_message_ec_ctr(shared_secret, plaintext)
-    decrypted = decrypt_message_ec_ctr(shared_secret, ciphertext)
-
-    print(f"Original: {plaintext}")
-    print(f"Ciphertext: {ciphertext}")
-    print(f"Decrypted: {decrypted}")
-    print(f"Decryption Successful: {plaintext == decrypted}")
