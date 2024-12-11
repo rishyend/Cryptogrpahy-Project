@@ -30,6 +30,11 @@ UAV Terminal:
 ![UAV](https://github.com/user-attachments/assets/296d5ee1-4226-41d3-8203-4064fa408f03)
 
 
+# COMPARISION RESULTS
+All the methods are compared in terms of Entropy(Randomness) in Ciphertext and Execution time with the results below:
+
+![comp](https://github.com/user-attachments/assets/2a003234-32b4-420f-a1a9-c977b11c9947)
+
 
 ### Required Libraries (fastecdsa doesn't work in Windows):
 
@@ -39,10 +44,4 @@ pip install pycryptodome
 pip install pycryptodomex
 pip install fastecdsa
 pip install
-
-
-# COMPARISION RESULTS
-All the methods are compared in terms of Entropy(Randomness) in Ciphertext and Execution time with the results below:
-
-![comp](https://github.com/user-attachments/assets/2a003234-32b4-420f-a1a9-c977b11c9947)
 
