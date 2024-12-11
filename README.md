@@ -55,4 +55,3 @@ pip install blake3
 pip install pycryptodome
 pip install pycryptodomex
 pip install fastecdsa
-pip install
