@@ -9,7 +9,7 @@ Implemented using three different methods:
 2. Using Pure scalar multiplications on SECP224k1 curve and BLAKE3 hash function.
 3. Using Partial scalar multiplication + ChaCha20-Poly1305 combined encryption and decryption.
 
-#IMPLEMENTATION BLOCK DIAGRAM REPRESENTATIONS :
+# IMPLEMENTATION BLOCK DIAGRAM REPRESENTATIONS :
 
 ![mermaid-flow](https://github.com/user-attachments/assets/fb546766-da76-4f24-825f-cad3cf1845a6)
 
@@ -17,7 +17,7 @@ Implemented using three different methods:
 
 ![chacha + ecc ](https://github.com/user-attachments/assets/7324754e-beee-4652-869f-6783b725aa90)
 
-#RESULTS OF IMPLEMENTATION through Socket Communication:
+# RESULTS OF IMPLEMENTATION through Socket Communication:
 
 Registration AUthority Terminal:
 
@@ -32,6 +32,7 @@ UAV Terminal:
 ![UAV](https://github.com/user-attachments/assets/296d5ee1-4226-41d3-8203-4064fa408f03)
 
 
+# COMPARISION RESULTS :
 All the methods are compared in terms of Entropy(Randomness) in Ciphertext and Execution time with the results below:
 
 ![comp](https://github.com/user-attachments/assets/2a003234-32b4-420f-a1a9-c977b11c9947)
