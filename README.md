@@ -1,6 +1,6 @@
-# Cryptogrpahy Project
+# Cryptography Project
 
-Two Parties -  UAV(Unmanned Aerial Vehicle) and Operator communicate through a middleman called Registration Authority(RA) ;
+Two Parties -  UAV(Unmanned Aerial Vehicle) and Operator communicate through a middleman called Registration Authority(RA) (TCP SOCK_STREAM connections) ;
 
 
 Implemented using three different methods:
