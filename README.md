@@ -12,13 +12,10 @@ The implementation is carried out using three different methods:
 
 ## **Block Diagram Representations**
 
-### AES CTR Implementation
 ![mermaid-flow](https://github.com/user-attachments/assets/fb546766-da76-4f24-825f-cad3cf1845a6)
 
-### Pure Scalar Multiplications
 ![pure secp](https://github.com/user-attachments/assets/a5523bce-20dc-4d74-8818-02894abbb213)
 
-### ChaCha20 + ECC Implementation
 ![chacha + ecc](https://github.com/user-attachments/assets/7324754e-beee-4652-869f-6783b725aa90)
 
 ---
